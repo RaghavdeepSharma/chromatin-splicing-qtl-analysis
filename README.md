@@ -123,9 +123,3 @@ This project processed **RNA-seq-derived LeafCutter sQTL results** from the eQTL
 The original workflows ran in Harvard Medical School's O2 HPC environment. Account-specific absolute O2 paths and identifiers are excluded from this repository. Configuration templates under `config/` show the expected inputs without exposing private paths.
 
 See [`docs/METHODS.md`](docs/METHODS.md), [`docs/RESULTS.md`](docs/RESULTS.md), and [`docs/SOURCE_PROVENANCE.tsv`](docs/SOURCE_PROVENANCE.tsv).
-
-## Public-release status
-
-**Keep this repository private until supervisor/lab approval to publish code and research figures is confirmed.** See [`docs/PUBLIC_RELEASE_CHECKLIST.md`](docs/PUBLIC_RELEASE_CHECKLIST.md).
-
-No open-source license is included yet because code-licensing rights should be confirmed before public release.
