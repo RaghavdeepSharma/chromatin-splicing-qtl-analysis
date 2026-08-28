@@ -1,0 +1,4 @@
+motif_archetype	calderon_celltype	n_high	n_low	n_high_overlap	n_low_overlap	odds_ratio	ci_lower_95	ci_upper_95	p_value	global_fdr	cell_fdr	pooling_strategy	analysis_version
+ZNF384_2	Naive_Tregs	144	77155	2	11	137.038315403758	25.5555505764271	496.854830694806	1.39789404669521e-05	0.0070314070548769	0.0025441671649852	compatible_sources_consensus_discordant_removed	corrected_consensus_pool
+SRF	Naive_Tregs	144	77155	1	0	1214.15951706605	64.1555373447633	177863.366546608	7.28548816452124e-05	0.0183230027337709	0.0066297942297143	compatible_sources_consensus_discordant_removed	corrected_consensus_pool
+NR_15	Naive_B	11	2691	1	0	352.429001896247	12.0558209852431	64376.6499733905	0.0011998787372161	0.150884751204932	0.0395959983281333	single_source_no_pooling_correction	existing_single_source
