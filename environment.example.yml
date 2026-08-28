@@ -1,0 +1,32 @@
+name: chromatin-sqtl-analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - pysam
+  - r-base>=4.3
+  - r-data.table
+  - r-ggplot2
+  - r-logistf
+  - bioconductor-genomicranges
+  - bioconductor-rtracklayer
+  - bioconductor-genomicfeatures
+  - bioconductor-txdbmaker
+  - bioconductor-edger
+  - bioconductor-limma
+  - cutadapt
+  - bowtie2
+  - samtools
+  - picard
+  - macs2
+  - bedtools
+  - subread
+  - deeptools
+
+# UCSC liftOver and the appropriate chain file are also required for hg19 -> hg38 conversion.
+# The original O2 environment used additional site-specific modules/conda environments.

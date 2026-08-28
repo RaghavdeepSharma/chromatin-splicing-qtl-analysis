@@ -1,0 +1,85 @@
+# Raw sequencing / alignment
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Genomic reference and large track files
+*.fa
+*.fasta
+*.fai
+*.bt2
+*.bt2l
+*.bw
+*.bigWig
+*.bedGraph
+*.chain
+*.chain.gz
+
+# Large/intermediate genomic data
+data/
+work/
+raw/
+raw_data/
+processed/
+processed_data/
+results/raw/
+reference/
+refs/
+tmp/
+temp/
+logs/
+slurm-*.out
+*.err
+*.out
+
+# Generated matrices / archives
+*.rds
+*.RData
+*.Rhistory
+*.tsv.gz
+*.txt.gz
+*.bed.gz
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Conda / IDE / OS
+.conda/
+env/
+.Rproj.user/
+.DS_Store
+
+# Private/local configuration
+config/*.local.sh
+*.env
+
+# Large genomics inputs and generated outputs
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.bw
+*.bigWig
+*.narrowPeak
+*.bedGraph
+
+# Runtime work directories
+work/
+data/
+raw_data/
+processed_data/
+results/
+logs/
+tmp/
