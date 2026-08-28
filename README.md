@@ -6,6 +6,8 @@ Splicing QTLs can identify genetic variants associated with changes in RNA splic
 
 > **Biological question:** Are high-confidence sQTL variants enriched within intragenic, chromatin-accessible TF binding sites in specific immune-cell contexts compared with lower-confidence variants?
 
+> **Key finding:** After covariate adjustment, sparse-data-aware modeling, and source-aware pooling correction, a small number of motif–cell-type combinations showed significant enrichment, including ZNF384_2 and SRF in naïve regulatory T cells.
+
 ## What this project demonstrates
 
 - End-to-end ATAC-seq processing on an HPC cluster: trimming, Bowtie2 alignment, filtering, deduplication, QC, MACS2 peak calling, consensus regions, fragment counts, and BigWig generation.
